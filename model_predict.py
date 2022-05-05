@@ -3,7 +3,6 @@
 import numpy as np
 import pickle
 import pandas as pd
-`from xgboost import XGBRegressor`
 
 class predict_model:
     def __init__(self, model_path = "model.pkl", scaler_path = 'scaler.pkl'):
