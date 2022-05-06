@@ -81,7 +81,7 @@ class App:
         st.write('## Gross Worldwide Prediction ' + "{0:,.0f}".format(result) + ' $')
         
         with st.sidebar:
-            st.write(f'## {"{0:,.0f}".format(result)} $')
+            st.write('## Gross Worldwide Prediction: ' + "{0:,.0f}".format(result) + ' $')
         show_df = pd.Series([("{0:,.2f}".format(result/1000000)), director, f'{actor_1}, {actor_2}',
                              writer, rating, ', '.join(genres), 
                              countries_of_origin, ', '.join(languages), 
