@@ -77,7 +77,7 @@ class perp_data:
         universe_dict = dict()
         universe_dict['Director'] = self.director_df['Names'].tolist()
         universe_dict['Actor'] = self.actor_df['Names'].tolist()
-        universe_dict['Rating'] = ['p', 'pg', 'pg-13', 'nc-17', 'r']
+        universe_dict['Rating'] = ['g', 'pg', 'pg-13', 'r', 'nc-17']
         universe_dict['Generes'] = ['action' ,'drama', 'documentary', 'comedy', 'thriller', 'horror', 'sci_fi', 'mystery', 
                                     'biography', 'adventure', 'romance', 'crime', 'animation', 'musical', 'fantasy', 
                                     'sport', 'western', 'war', 'family', 'music', 'other']
